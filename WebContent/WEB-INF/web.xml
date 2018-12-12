@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <web-app>
-	<context-param>
-		<param-name>javax.faces.DEFAULT_SUFFIX</param-name>
-		<param-value>.jpsx</param-value>
-  	</context-param>
 	
+	 <servlet>
+		<servlet-name>CreationContact</servlet-name>
+		<servlet-class>Servlets.CreationContact</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>CreationContact</servlet-name>
+		<url-pattern>/CreationContact</url-pattern>
+	</servlet-mapping>
 	
 	
 </web-app>
 
 
- <!-- <servlet>
-		<servlet-name>PageAcceuil</servlet-name>
-		<servlet-class>Servlets.PageAcceuil</servlet-class>
-	</servlet>
-	
-	<servlet-mapping>
-		<servlet-name>PageAcceuil</servlet-name>
-		<url-pattern>/PageAcceuil</url-pattern>
-	</servlet-mapping> -->
