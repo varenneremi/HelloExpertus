@@ -31,7 +31,7 @@ public class CreationContact extends HttpServlet {
 		 */
 		
 		if (nom.trim().isEmpty() || email.trim().isEmpty() || texte.trim().isEmpty()) {
-			avertissement = "Erreur - Vous n'avez pas rempli tous les champs obligatoires. <br> <a href:\"CreationContact.jsp\">Cliquez ici </a> pour envoyer votre message.";
+			avertissement = "Erreur - Vous n'avez pas rempli tous les champs obligatoires. <br> <a href=\"CreationContact.jsp\">Cliquez ici</a> pour accéder au formulaire de création d'une commande.";
 		}
 		else {
 			avertissement = "Message envoyé avec succès !";

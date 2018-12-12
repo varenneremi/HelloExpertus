@@ -9,10 +9,10 @@
 	
 	<body>
 	
-		<h1 align="center" >Hello Expertus</h2>
+		<h1 align="center" style="margin:0 50px" font-size="-webkit-xxx-large;" >Hello Expertus</h1>
 		
-		<h2> Our solutions </h2>
-		<h3> FOR CORPORATES</h3>
+		<h2 style="font-size: xx-large;"> Our solutions </h2>
+		<h3 style="font-size: larger;"> FOR CORPORATES</h3>
 		<h4> <font color="blue"> 
 		Designed by Treasurers, for Treasurers </font> </h4> 
 		
@@ -25,7 +25,7 @@
 		to a minimum by consolidating organizational funding and FX 
 		positions with real-time capabilities. </p>
 		
-		<h3> FOR BANKS </h3>
+		<h3 style="font-size: larger;"> FOR BANKS </h3>
 		<h4> <font color="blue">
 		Instant experience has become the norm  </font> </h4>
 		
@@ -36,7 +36,7 @@
 		rates for all payment instruments and reducing costs with 
 		automation and state-of-the-art technologies.</p>
 		
-		<h3> CASE MANAGEMENT </h3>
+		<h3 style="font-size: larger;"> CASE MANAGEMENT </h3>
 		<h4> <font color="blue"> 
 		Easy and fast investigation at hand</font> </h4>
 		
@@ -47,7 +47,7 @@
 		faster resolution, optimized and automated workflows and 
 		tracking processes. </p>
 		
-		<h3> SWIFT CONNECTIVITY </h3>
+		<h3 style="font-size: larger;"> SWIFT CONNECTIVITY </h3>
 		<h4> <font color="blue"> 
 		Make SWIFT easy for everyone</font> </h4>
 		
@@ -67,7 +67,7 @@
 		to regulations and financial policies. </p>
 		
 		<div>
-			<form method="get" action="creationContact">
+			<form method="get" action="CreationContact">
 				
 				<fieldset>
 						

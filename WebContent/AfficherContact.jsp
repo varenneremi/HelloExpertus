@@ -6,7 +6,7 @@
 		<title>Affichage d'un contact</title>
 		<link type="text/css" rel="stylesheet" href="inc/style.css" />
 	</head>
-	<body>
+	<body style="margin:0 50px">
 		<%-- Affichage de la chaîne "Contact" transmise par la servlet --%>
 		<p class="info">${avertissement}</p>
 		<%-- Puis affichage des données enregistrées dans le bean "contact" transmis par la servlet --%>
